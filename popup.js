@@ -8,6 +8,8 @@ document.getElementById("toggleSwitch").addEventListener("change", function () {
   const subtitle4 = document.getElementById("subtitle4");
   const subtitle5 = document.getElementById("subtitle5");
 
+  var myHeading = document.getElementById('myHeading')
+
   const isDarkMode = this.checked;
 
   // Adjust styles based on the selected mode
@@ -15,7 +17,7 @@ document.getElementById("toggleSwitch").addEventListener("change", function () {
     body.style.backgroundColor = "#333";
     body.style.color = "#fff";
     title.style.color = "#fff";
-    h2.style.color = "#fff";
+    myHeading.style.color = "#fff";
     subtitle1.style.color = "#fff";
     subtitle2.style.color = "#fff";
     subtitle3.style.color = "#fff";
@@ -25,7 +27,7 @@ document.getElementById("toggleSwitch").addEventListener("change", function () {
     body.style.backgroundColor = "";
     body.style.color = "";
     title.style.color = "black";
-    h2.style.color = "black";
+    myHeading.style.color = "black";
     subtitle1.style.color = "black";
     subtitle2.style.color = "black";
     subtitle3.style.color = "black";
