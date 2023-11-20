@@ -1,65 +1,19 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <style>
-    button {
-      margin: 5px;
-    }
-
-    #title {
-      font-size: 30px;
-      color: black;
-      font-family: Arial, sans-serif;
-      margin-bottom: 10px;
-    }
-
-    #subtitle1 {
-      font-size: 15px;
-      color: black;
-      font-family: Arial, sans-serif;
-      margin-bottom: 10px;
-    }
-
-    #subtitle2 {
-      font-size: 15px;
-      color: black;
-      font-family: Arial, sans-serif;
-      margin-bottom: 10px;
-    }
-
-    #subtitle3 {
-      font-size: 15px;
-      color: black;
-      font-family: Arial, sans-serif;
-      margin-bottom: 10px;
-    }
-
-    #subtitle4 {
-      font-size: 15px;
-      color: black;
-      font-family: Arial, sans-serif;
-      margin-bottom: 10px;
-    }
-
-    #subtitle5 {
-      font-size: 15px;
-      color: black;
-      font-family: Arial, sans-serif;
-      margin-bottom: 10px;
-    }
-
-    #modeToggle {
-      position: absolute;
-      top: 5px;
-      right: 5px;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DyslexAid</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
-<body style="width: 45em; height: 30em">
-    <div id="title">DyslexAid</div>
-    <div id="subtitle1">Change Font</div>
+<body style="width: 360px; height: 580px">
+  <header><span><img class="logo" src="images/logo.png" alt=""></span>DyslexAid</header>
+  <div id="modeToggle">
+    <input type="checkbox" id="toggleSwitch">
+    <label for="toggleSwitch">Dark Mode</label>
+  </div>
+  <h2>Change Font</h2>
   <button id="defaultFont">Original</button>
   <button id="changeFontOpenDyslexic">OpenDyslexic</button>
   <button id="changeFontHelvetica">Helvetica</button>
@@ -67,40 +21,34 @@
   <button id="changeFontRoboto">Roboto</button>
   <button id="changeFontVerdana">Verdana</button>
 
-    <div id="subtitle2">Change Font Size</div>
+  <h2>Change Font Size</h2>
   <button id="defaultFontSize">Original</button>
-  <button id="changeFontSize12">Font 12</button>
-  <button id="changeFontSize13">Font 13</button>
-  <button id="changeFontSize14">Font 14</button>
-  <button id="changeFontSize15">Font 15</button>
+  <button id="changeFontSize12">12 pt</button>
+  <button id="changeFontSize13">13 pt</button>
+  <button id="changeFontSize14"> 14 pt</button>
+  <button id="changeFontSize15">15 pt</button>
 
-    <div id="subtitle3">Change Word Spacing</div>
-  <button id="increaseWordSpacing1">1x</button>
+  <h2>Change Word Spacing</h2>
+  <button id="increaseWordSpacing1">Original</button>
   <button id="increaseWordSpacing2">2x</button>
   <button id="increaseWordSpacing3">3x</button>
   <button id="increaseWordSpacing4">4x</button>
   <button id="increaseWordSpacing5">5x</button>
 
-    <div id="subtitle4">Change Letter Spacing</div>
-  <button id="increaseSpacing1">1x</button>
+  <h2>Change Letter Spacing</h2>
+  <button id="increaseSpacing1">Original</button>
   <button id="increaseSpacing2">2x</button>
   <button id="increaseSpacing3">3x</button>
   <button id="increaseSpacing4">4x</button>
   <button id="increaseSpacing5">5x</button>
 
-    <div id="subtitle5">Change Line Height</div>
-  <button id="adjustLineHeight1">1x</button>
+    <h2>Change Line Height</h2>
+  <button id="adjustLineHeight1">Original</button>
   <button id="adjustLineHeight2">2x</button>
   <button id="adjustLineHeight3">3x</button>
   <button id="adjustLineHeight4">4x</button>
   <button id="adjustLineHeight5">5x</button>
-
-  <div id="modeToggle">
-    <label for="toggleSwitch">Dark Mode</label>
-    <input type="checkbox" id="toggleSwitch">
-  </div>
-
-  <script src="popup.js"></script>
 </body>
 
+<script src="popup.js"></script>
 </html>
