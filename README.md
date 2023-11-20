@@ -1,1 +1,1 @@
-# HackCamp
+# DyslexAid - HackCamp Edition
