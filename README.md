@@ -1,6 +1,6 @@
 ## DyslexAid 
 
-As part of a beginner-friendly hackathon, HackCamp, it revolved around three main themes: accessibility, diversity, and inclusivity.
+As part of a beginner-friendly hackathon, HackCamp, it revolved around three main themes: accessibility, diversity, and inclusivity. 
 
 ### Objective
 
@@ -13,3 +13,5 @@ We built this chrome extension using CSS, HTML, JavaScript, Figma, and Adobe Ill
 ### Contributions
 
 Project made by: Joshua Lim, Bryan Lim, Bryan Park, and Minah Park
+
+We only had 12 hours to work on it so it is a prototype, but we are proud of what we were able to accomplish within a specified time frame!
